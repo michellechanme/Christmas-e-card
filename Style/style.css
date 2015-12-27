@@ -1,0 +1,131 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fade-in.flush-img {
+  -webkit-animation-deay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.emoji {
+  -webkit-animation-iteration-count: infinite;
+}
+
+.welcome {
+  color: white;
+  text-align: center;
+  font-size: 110px;
+  font-weight: 900;
+  line-height: 125px;
+  padding: 150px;
+}
+
+.emoji {
+  position: absolute;
+  padding: 50px;
+}
+
+.emoji-upper-right {
+  position: absolute;
+  padding: 50px;
+  right: 15px;
+}
+
+.emoji-lower-left {
+  position: absolute;
+  padding: 60px;
+  bottom: 15px;
+}
+
+.emoji-lower-right {
+  position: absolute;
+  padding: 60px;
+  bottom: 15px;
+  right: 15px;
+}
+
+.flush {
+  padding: 20px;
+}
+
+.tagline {
+  color: #27ae60;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 400;
+  padding: 60px;
+  padding-top: 25px;
+}
+
+.flush-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  padding: 55px;
+  display: block
+}
+
+.container {
+  background-color: #e74c3c;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 125px;
+  padding: 120px;
+}
+
+.wrapper {
+  background-color: #27ae60;
+}
+
+.note {
+  color: white;
+  font-size: 60px;
+  font-weight: 400px;
+  line-height: 100px;
+  padding: 150px;
+}
+
+.sig {
+  color: white;
+  font-size: 35px;
+  font-weight: 300px;
+  line-height: 40px;
+}
+
+.dance-party {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ecf0f1;
+}
+
+.dancing-title {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 125px;
+  padding: 120px;
+  -webkit-animation-iteration-count: 3;
+}
